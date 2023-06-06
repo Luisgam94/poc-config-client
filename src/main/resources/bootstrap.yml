@@ -3,7 +3,7 @@ spring:
     name: legacy-datasource
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://ms-config-server:8888 #for docker connect in network
   profiles:
     active: prod
-
+#http://localhost:8888 #for local
